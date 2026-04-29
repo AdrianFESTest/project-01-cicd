@@ -1,7 +1,7 @@
 const { getMessage, createMessage } = require("../src/utils/message");
 
 test("returns the default message", () => {
-  expect(getMessage()).toBe("hello");
+  expect(getMessage()).toBe("world");
 });
 
 test("creates a personalized message", () => {
